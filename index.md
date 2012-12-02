@@ -14,25 +14,28 @@ We are passionate about
 open-source software and development to our core. This handbook is an
 experiment in open-sourcing our business as well. Through the years,
 we've developed some workflows, processes, and custom software that have
-helped improve the process of developing and releasing software for
-startups. This handbook aims to document and release our findings, along
-with the source code for our internal systems.
+improved the process of developing and releasing software for
+startups. This handbook aims to document and release our
+findings, including with the source code for our internal systems.
 
 We hope you find this resource useful on your journey through the
 world of startup development with Alfa Jango.
 
+## [Introduction &rarr;](/introduction.html)
+
 ## For Clients
 
-* [CMS Tips](/cms-tips.html)
+* [Content Management for Non-Developers](/cms-tips.html) {% include labels/tip %}
 
 ## For Employees
 
-* [Time Tracking](/time-tracking.html)
-* [Security](/security.html)
+* [Time Tracking](/time-tracking.html) {% include labels/workflow %}
+* [Security](/security.html) {% include labels/policy %}
 
 ## For Developers
 
-* [Redmine Guide](/redmine-guide.html)
-* [Git Commit Guidelines](/git-commit-guidelines.html)
-* [Exception Management](/exception-management.html)
-* [Running Test::Unit Tests](/running-test-unit-tests.html)
+* [Redmine Guide](/redmine-guide.html) {% include labels/workflow %}
+* [Git Commit Guidelines](/git-commit-guidelines.html) {% include labels/workflow %}
+* [Exception Management](/exception-management.html) {% include labels/workflow %}
+* [Running Test::Unit Tests](/running-test-unit-tests.html) (TODO: move
+  this to a blog post?)
