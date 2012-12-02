@@ -26,16 +26,20 @@ world of startup development with Alfa Jango.
 ## For Clients
 
 * [Content Management for Non-Developers](/cms-tips.html) {% include labels/tip %}
+* Getting Started with Alfa Jango {% include labels/coming_soon %}
+* The Tech Status Dashboard {% include labels/coming_soon %}
 
 ## For Employees
 
 * [Time Tracking](/time-tracking.html) {% include labels/workflow %}
 * [Security](/security.html) {% include labels/policy %}
+* Data Backup {% include labels/coming_soon %}
+* File Sharing {% include labels/coming_soon %}
 
 ## For Developers
 
 * [Redmine Guide](/redmine-guide.html) {% include labels/workflow %}
 * [Git Commit Guidelines](/git-commit-guidelines.html) {% include labels/workflow %}
 * [Exception Management](/exception-management.html) {% include labels/workflow %}
-* [Running Test::Unit Tests](/running-test-unit-tests.html) (TODO: move
+* [Running Test::Unit Tests](/running-test-unit-tests.html) (todo: move
   this to a blog post?)
