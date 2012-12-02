@@ -13,11 +13,11 @@ world of startup development with Alfa Jango.
 ## For Clients
 
 * [CMS Tips](/cms-tips.html)
-* [Security](/security.html)
 
 ## For Employees
 
 * [Time Tracking](/time-tracking.html)
+* [Security](/security.html)
 
 ## For Developers
 
