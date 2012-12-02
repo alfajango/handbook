@@ -1,0 +1,127 @@
+---
+layout: page
+title: "Redmine Guide"
+description: ""
+---
+{% include JB/setup %}
+
+Welcome to the amazing Alfa Jango project management tool. You must have top-secret level clearance to be in here. Either that, or just be really super awesome.
+
+!{width:100%}http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/00000/1000/700/1791/1791.strip.zoom.gif!
+
+
+!{width:100%}http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/00000/1000/000/1051/1051.strip.zoom.gif!
+
+h1. Guidelines
+
+Welcome to the Alfa Jango Redmine guidelines. Follow these, and you won't be shunned, ostracized, exiled, lynched, beaten, banned, repudiated, expelled, rebuked, admonished, berated, or otherwise made to look like this:
+
+:-(
+
+Oh, and if you have suggestions, let them be heard!
+
+h2. Issue Types (aka "Trackers")
+
+h3. Bug
+
+Bugs are when there's something wrong with functionality we've implemented. Usually, these will be browser-specific, or due to some weird combination of interaction, or something that only manifests in staging/production but not locally.
+
+If it includes new functionality we have not yet built, it's not a bug! Sometimes clients don't necessarily know whether what they're describing is a bug or a new/extended feature. In that case, it's up to us to know which and why.
+
+h3. Feature
+
+New feature, programmatically speaking (i.e. requires writing/deleting/changing code). If it's not code-related, it's probably "Support".
+
+h3. Support
+
+Usually involves speaking with vendors, setting up DNS records, configuring email, etc.
+
+h2. Issue Statuses
+
+h3. Estimate Needed
+
+These tasks need estimates from us to give to the client. This usually comes before "Awaiting Approval".
+
+h3. Awaiting Approval
+
+We've discussed this task with the client, but the client has not yet approved the expense or has deemed it a low priority for later.
+
+We may or may not have provided them an estimate to help them plan the task's relative priority.
+
+h3. Queued
+
+The client has approved the task, but no developer has yet started it.
+
+The task should be marked "In Progress" when work is started, so no other developer starts it, and so anyone else can look at the issue list to inform the client which tasks are being worked on.
+
+h3. In Progress
+
+Work has begun on the task.
+
+h3. Blocked
+
+Work has stopped on the task, due to some block.
+
+The block may be that we're waiting on assets from the graphic designer, some response from a vendor, or feedback from each other.
+
+h3. Pull Request
+
+The task has been worked on and submitted as a Github pull request.
+
+The task may or may not be finished. Github pull requests provide a convenient place to discuss a series of commits or set of changes to the codebase, which is why they may be created for a task before the task is actually complete. *When setting a task to "Pull Request", make sure to update the "% done" for the task to make it clear whether the task is basically done or not.
+
+h3. Pushed to Staging
+
+When code has been merged and pushed to staging.
+
+If the client only has one server, but the domain is not a production domain (e.g. gcee.herokuapp.com or mvp2.fanhelp.us), we'll consider that to be "staging". I.e. that client would be considered to have no production server.
+
+h3. Pushed to Production
+
+When code has been merged and pushed to production.
+
+If the client has one server, and the domain is the production domain they publicize or will publicize (e.g. mcede.org or www.fanhelp.us), we'll consider that to be "production".
+
+h3. Accepted
+
+The code has been pushed to production (or staging if the client only has a staging server), and either a) the client has checked the change in production and approved it, or b) it's been in production for at least a week and there have been no issues encountered or reported.
+
+h3. Canceled
+
+The task has been canceled by the client without us doing any work. This is typically due to the client realizing some error on their part, or perhaps outsourcing the task to someone else.
+
+h2. Notes
+
+h3. Estimates
+
+It's important to record a task's estimate when we mention any estimates to the client, whether by phone, email, IM, or whatever. If necessary, write the estimate in either the first or last line of the task description as it was given (e.g. "~5hr", "1-2hr", "<3hr", etc.). Put the max estimate for that task in the "Estimated Time" text field.
+
+h3. % done
+
+The "% done" should be updated for a task in any of the following scenarios:
+
+* When the task takes longer than one day, update the "% done" after each day we work on it.
+
+* When the task status is updated to "Blocked" or "Pull Request", update the current "% done".
+
+h3. Start Date
+
+When tasks are queued and assigned, we should update the task with the planned date the developer will be able to start on the task.
+
+h3. Due Date
+
+The "Due Date" should be updated whenever we have any sort of deadline, whether a "hard" deadline driven by some meeting, conference, or other specific date by which the client needs the task done, or a "soft" deadline which we offer the client.
+
+h3. Internal due date
+
+This field helps us keep track of when we're trying to complete a task by, when we haven't necessarily given the client a date (or if the date the client needs it by is after our projected completion date).
+
+For now, this won't factor into the Gantt chart to help us in scheduling, so we'll need to pay attention to the Internal due date specifically when scheduling as well. Eventually, we can update the Gantt chart to look at Internal due dates as well.
+
+h3. Scheduling
+
+If we can consistently mark all tasks with "Start Date" and "Due Date", then we can use the Gantt Charting feature in Redmine to visualize our workload and help provide clients with better estimated completion dates that don't necessitate Redbull-fueled binge-coding dashes to the finish.
+
+h2. Text formatting in Issues
+
+"See the Redmine text formatting guide":http://www.redmine.org/projects/redmine/wiki/RedmineTextFormatting
