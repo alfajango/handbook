@@ -21,6 +21,11 @@ findings, including with the source code for our internal systems.
 We hope you find this resource useful on your journey through the
 world of startup development with Alfa Jango.
 
+This is a living document which will be continuously refined with our
+ongoing development and experience. Keep referring back for the most
+up-to-date information, and view the public history of [this handbook on
+Github](https://github.com/alfajango/handbook).
+
 ## [Introduction &rarr;](/introduction.html)
 
 ## For Clients
