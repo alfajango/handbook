@@ -49,3 +49,4 @@ Github](https://github.com/alfajango/handbook).
 * [Exception Management](/exception-management.html) {% include labels/workflow %}
 * [Running Test::Unit Tests](/running-test-unit-tests.html) (todo: move
   this to a blog post?)
+* Project READMEs {% include labels/coming_soon %}
