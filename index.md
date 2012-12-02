@@ -8,7 +8,7 @@ tagline: to Awesomeness
 Welcome to The Alfa Jango Handbook to Awesomeness.
 
 > Our little book of company policies and workflows, and tips and advise
-> for our startups and clients.
+> for our clients and startups.
 
 We are passionate about
 open-source software and development to our core. This handbook is an
