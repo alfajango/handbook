@@ -33,7 +33,8 @@ Github](https://github.com/alfajango/handbook).
 * [Content Management for Non-Developers](/cms-tips.html) {% include labels/tip %}
 * Getting Started with Alfa Jango {% include labels/coming_soon %}
 * The Tech Status Dashboard {% include labels/coming_soon %}
-* Software pricing {% include labels/coming_soon %}
+* Software Pricing {% include labels/coming_soon %}
+* The Employee/Contractor Dashboard {% include labels/coming_soon %}
 
 ## For Employees
 
