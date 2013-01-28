@@ -31,6 +31,7 @@ Github](https://github.com/alfajango/handbook).
 ## For Clients
 
 * [Content Management for Non-Developers](/cms-tips.html) {% include labels/tip %}
+* Installing development version of iOS app {% include labels/coming_soon %}
 * Getting Started with Alfa Jango {% include labels/coming_soon %}
 * The Tech Status Dashboard {% include labels/coming_soon %}
 * Software Pricing {% include labels/coming_soon %}
@@ -38,6 +39,7 @@ Github](https://github.com/alfajango/handbook).
 
 ## For Employees
 
+* [Redmine Guide](/redmine-guide.html) {% include labels/workflow %}
 * [Time Tracking](/time-tracking.html) {% include labels/workflow %}
 * [Security](/security.html) {% include labels/policy %}
 * Data Backup {% include labels/coming_soon %}
@@ -45,7 +47,6 @@ Github](https://github.com/alfajango/handbook).
 
 ## For Developers
 
-* [Redmine Guide](/redmine-guide.html) {% include labels/workflow %}
 * [Git Commit Guidelines](/git-commit-guidelines.html) {% include labels/workflow %}
 * [Exception Management](/exception-management.html) {% include labels/workflow %}
 * [Running Test::Unit Tests](/running-test-unit-tests.html) (todo: move
