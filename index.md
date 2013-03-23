@@ -52,3 +52,4 @@ Github](https://github.com/alfajango/handbook).
 * [Running Test::Unit Tests](/running-test-unit-tests.html) (todo: move
   this to a blog post?)
 * Project READMEs {% include labels/coming_soon %}
+* [Working with Amazon S3](/working-with-amazon-s3.html) {% include labels/policy %}
