@@ -8,3 +8,4 @@ gem "RedCloth"
 
 gem "rack-jekyll"
 gem "thin"
+gem "jekyll-s3"

@@ -1,0 +1,3 @@
+s3_id: S3_SECRET_ID
+s3_secret: S3_SECRET_KEY
+s3_bucket: S3_BUCKET
