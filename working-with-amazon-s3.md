@@ -118,3 +118,39 @@ every app when developing locally on their machine. To remove a
 developer from a client's bucket access, just remove their developer
 account from that client's IAM group.
 
+## Caveat for CloudFront
+
+One caveat is that Amazon's IAM policies [do not allow restriction of
+access to specific CloudFront
+distributions](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/UsingWithIAM.html#CloudFront_ARN_Format).
+So, if a given group needs access to e.g. invalidate objects in CloudFront,
+the group must be granted access to invalidate objects in all CloudFront
+distributions of the master account.
+
+Here is an example policy that does this:
+
+```
+{
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:*",
+      "Resource": "arn:aws:s3:::new-client*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:*",
+      "Resource": "arn:aws:s3:::new-client-dev*"
+    },
+    {
+      "Action": [
+        "cloudfront:CreateInvalidation",
+        "cloudfront:GetInvalidation",
+        "cloudfront:ListInvalidations"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+```
