@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Invoice and Payment Numbering System"
+description: ""
+---
+{% include JB/setup %}
 <table>
 <tr><td></td><td>Invoices</td><td>Payments</td></tr>
 <tr><td>Clients</td><td>AAA-BBBB</td><td>CLIENT-CCCC</td></tr>

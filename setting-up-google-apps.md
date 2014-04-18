@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Setting Up Google Apps Email"
+description: ""
+---
+{% include JB/setup %}
 1. Verify domain ownership in settings.
 2. Set up email for domain.
   a. Create MX host records
