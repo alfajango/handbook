@@ -44,6 +44,8 @@ Github](https://github.com/alfajango/handbook).
 * [Security](/security.html) {% include labels/policy %}
 * Data Backup {% include labels/coming_soon %}
 * File Sharing {% include labels/coming_soon %}
+* [Invoice and Payment Numbering System](/invoice-and-payment-numbering-system.html)
+* [New Client Onboarding](/new-client-onboarding.html)
 
 ## For Developers
 
@@ -53,3 +55,4 @@ Github](https://github.com/alfajango/handbook).
   this to a blog post?)
 * Project READMEs {% include labels/coming_soon %}
 * [Working with Amazon S3](/working-with-amazon-s3.html) {% include labels/policy %}
+* [Setting up Google Apps Email](/setting-up-google-apps.html) {% include labels/policy %}
