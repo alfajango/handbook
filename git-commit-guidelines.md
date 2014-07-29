@@ -99,6 +99,11 @@ What if you need to make changes further back in the history, maybe 2 or 3 commi
 
 ## Other git commit message resources:
 
-* http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+* [A note about Git commit
+  messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
-* http://stackoverflow.com/questions/43598/suggestions-for-a-good-commit-message-format-guideline
+* [Goot git commit message format
+  guidelines](http://stackoverflow.com/questions/43598/suggestions-for-a-good-commit-message-format-guideline)
+
+* [Git Flight Rules - what to do when something goes
+  wrong](https://github.com/k88hudson/git-flight-rules)
