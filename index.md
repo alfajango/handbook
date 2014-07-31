@@ -46,6 +46,7 @@ Github](https://github.com/alfajango/handbook).
 * File Sharing {% include labels/coming_soon %}
 * [Invoice and Payment Numbering System](/invoice-and-payment-numbering-system.html)
 * [New Client Onboarding](/new-client-onboarding.html)
+* [New Hire Onboarding](/new-hire-onboarding.html)
 
 ## For Developers
 
