@@ -7,7 +7,13 @@ description: ""
 
 ### Employment Tasks:
 
-1. Fill out employment paperwork
+1. Fill out and sign employment paperwork:
+    * Offer Letter
+    * Employment Agreement
+    * W4
+    * MI-W4
+    * I9
+    * Payroll Direct Deposit (optional)
 2. Add to payroll.
 3. Set up health insurance.
 4. Get computer.
