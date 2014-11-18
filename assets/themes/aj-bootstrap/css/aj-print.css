@@ -1,0 +1,8 @@
+@media print {
+  .navbar ul.nav {
+    display: none;
+  }
+  .navbar .brand {
+    padding: 5px 8px;
+  }
+}
