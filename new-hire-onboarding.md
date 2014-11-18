@@ -20,7 +20,7 @@ description: ""
 
 ### Workflow Tasks:
 
-* <label class="checkbox"><input type="checkbox"> Shown Launchpad.</label>
+* <label class="checkbox"><input type="checkbox"> Show Launchpad.</label>
 * <label class="checkbox"><input type="checkbox"> Read Handbook.</label>
 * <label class="checkbox"><input type="checkbox"> Add to Kandan group chat.</label>
 * <label class="checkbox"><input type="checkbox"> Create name@alfajango.com email account.</label>
