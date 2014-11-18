@@ -7,33 +7,33 @@ description: ""
 
 ### Employment Tasks:
 
-1. Fill out and sign employment paperwork:
-    * Offer Letter
-    * Employment Agreement
-    * W4
-    * MI-W4
-    * I9
-    * Payroll Direct Deposit (optional)
-2. Add to payroll.
-3. Set up health insurance.
-4. Get computer.
+1. <label class="checkbox"><input type="checkbox"> Fill out and sign employment paperwork:</label>
+   * <label class="checkbox"><input type="checkbox">  Offer Letter</label>
+   * <label class="checkbox"><input type="checkbox">  Employment Agreement</label>
+   * <label class="checkbox"><input type="checkbox">  W4</label>
+   * <label class="checkbox"><input type="checkbox">  MI-W4</label>
+   * <label class="checkbox"><input type="checkbox">  I9</label>
+   * <label class="checkbox"><input type="checkbox">  Payroll Direct Deposit (optional)</label>
+2. <label class="checkbox"><input type="checkbox"> Add to payroll.</label>
+3. <label class="checkbox"><input type="checkbox"> Set up health insurance.</label>
+4. <label class="checkbox"><input type="checkbox"> Get computer.</label>
 
 ### Workflow Tasks:
 
-* Add to Kandan group chat.
-* Create name@alfajango.com email account.
-* Add to team mailing list.
-* Add to group text app.
-* Add to Cashboard as employee.
-* Assign projects in Cashboard.
-* Create Redmine account.
-* Add to BitBucket developer team.
-* Add to Github developer team.
-* Add to Grasshopper ext.
-* Add to team drive.
-* Give keys to office.
+* <label class="checkbox"><input type="checkbox"> Add to Kandan group chat.</label>
+* <label class="checkbox"><input type="checkbox"> Create name@alfajango.com email account.</label>
+* <label class="checkbox"><input type="checkbox"> Add to team mailing list.</label>
+* <label class="checkbox"><input type="checkbox"> Add to group text app.</label>
+* <label class="checkbox"><input type="checkbox"> Add to Cashboard as employee.</label>
+* <label class="checkbox"><input type="checkbox"> Assign projects in Cashboard.</label>
+* <label class="checkbox"><input type="checkbox"> Create Redmine account.</label>
+* <label class="checkbox"><input type="checkbox"> Add to BitBucket developer team.</label>
+* <label class="checkbox"><input type="checkbox"> Add to Github developer team.</label>
+* <label class="checkbox"><input type="checkbox"> Add to Grasshopper ext.</label>
+* <label class="checkbox"><input type="checkbox"> Add to team drive.</label>
+* <label class="checkbox"><input type="checkbox"> Give keys to office.</label>
 
 ### Assigned Project Tasks:
 
-* Add to relevant client mailing lists.
-* Add to projects in Redmine
+* <label class="checkbox"><input type="checkbox"> Add to relevant client mailing lists.</label>
+* <label class="checkbox"><input type="checkbox"> Add to projects in Redmine</label>
