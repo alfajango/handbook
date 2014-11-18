@@ -26,9 +26,8 @@ description: ""
 * <label class="checkbox"><input type="checkbox"> Create name@alfajango.com email account.</label>
 * <label class="checkbox"><input type="checkbox"> Add to team mailing list.</label>
 * <label class="checkbox"><input type="checkbox"> Add to group text app.</label>
-* <label class="checkbox"><input type="checkbox"> Add to Cashboard as employee.</label>
-* <label class="checkbox"><input type="checkbox"> Assign projects in Cashboard.</label>
 * <label class="checkbox"><input type="checkbox"> Create Redmine account.</label>
+* <label class="checkbox"><input type="checkbox"> Add to Cashboard as employee.</label>
 * <label class="checkbox"><input type="checkbox"> Add to BitBucket developer team.</label>
 * <label class="checkbox"><input type="checkbox"> Add to Github developer team.</label>
 * <label class="checkbox"><input type="checkbox"> Add to Grasshopper ext.</label>
@@ -39,3 +38,4 @@ description: ""
 
 * <label class="checkbox"><input type="checkbox"> Add to relevant client mailing lists.</label>
 * <label class="checkbox"><input type="checkbox"> Add to projects in Redmine</label>
+* <label class="checkbox"><input type="checkbox"> Add to projects in Cashboard.</label>
