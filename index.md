@@ -51,6 +51,7 @@ Github](https://github.com/alfajango/handbook).
 ## For Developers
 
 * [Git Commit Guidelines](/git-commit-guidelines.html) {% include labels/workflow %}
+* [Client Documentation](/client-documentation.html) {% include labels/workflow %}
 * [Exception Management](/exception-management.html) {% include labels/workflow %}
 * [Running Test::Unit Tests](/running-test-unit-tests.html) (todo: move
   this to a blog post?)
