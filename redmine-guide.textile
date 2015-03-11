@@ -7,10 +7,10 @@ description: ""
 
 Welcome to the amazing Alfa Jango project management tool. You must have top-secret level clearance to be in here. Either that, or just be really super awesome.
 
-!{width:100%}http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/00000/1000/700/1791/1791.strip.zoom.gif!
+!{width:100%}https://s3.amazonaws.com/s3.alfajango.com/redmine/dt051116.gif!
 
 
-!{width:100%}http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/00000/1000/000/1051/1051.strip.zoom.gif!
+!{width:100%}https://s3.amazonaws.com/s3.alfajango.com/redmine/dt071126.gif!
 
 h1. Guidelines
 

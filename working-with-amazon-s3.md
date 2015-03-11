@@ -40,7 +40,7 @@ their credentials created above for all apps while developing on their
 local machines. We'll show below how to give each developer's new IAM
 credentials to access the buckets for each application.
 
-![Amazon IAM New User 1](https://s3.amazonaws.com/s3.alfajango.com/aj-gollum/amazon-iam-screenshot-1-user.png)
+![Amazon IAM New User 1](/assets/images/amazon-iam-screenshot-1-user.png)
 
 ## Application User
 
@@ -53,7 +53,7 @@ tradeoff between isolation/security and convenience.
 So, for each client, create a new user by repeating the steps from above
 for creating a new developer account user.
 
-![Amazon IAM New User 2](https://s3.amazonaws.com/s3.alfajango.com/aj-gollum/amazon-iam-screenshot-2-user.png)
+![Amazon IAM New User 2](/assets/images/amazon-iam-screenshot-2-user.png)
 
 ## Permissions (via Group)
 
@@ -66,7 +66,7 @@ create a new "Group" for each set of client applications.
 To do this, click "Groups" in the IAM dashboard navigation and click the
 blue "Create New Group" button. 
 
-![Amazon IAM New Group](https://s3.amazonaws.com/s3.alfajango.com/aj-gollum/amazon-iam-screenshot-3-group.png)
+![Amazon IAM New Group](/assets/images/amazon-iam-screenshot-3-group.png)
 
 After entering the group name, we'll be prompted to give the group
 permissions. This is where we'll grant access to the client's S3
@@ -93,7 +93,7 @@ called "new-client" and "new-client-dev", respectively):
 }
 ```
 
-![Amazon IAM New Group](https://s3.amazonaws.com/s3.alfajango.com/aj-gollum/amazon-iam-screenshot-4-group-permissions.png)
+![Amazon IAM New Group](/assets/images/amazon-iam-screenshot-4-group-permissions.png)
 
 ## Attach Permissions
 
@@ -101,7 +101,7 @@ Finally, we'll add both the applicaiton user and developer users to the
 new group in order to give each access to the buckets, by clicking the
 new group, and clicking "Add Users to Group" in the properties window.
 
-![Amazon IAM Add Users to Group](https://s3.amazonaws.com/s3.alfajango.com/aj-gollum/amazon-iam-screenshot-5-group-users.png)
+![Amazon IAM Add Users to Group](/assets/images/amazon-iam-screenshot-5-group-users.png)
 
 ## Final Result
 

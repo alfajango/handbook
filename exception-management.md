@@ -24,7 +24,7 @@ To merge an exception:
 3. Check any unmerged instances of the new exception, along with the existing exception to be merged with.
 4. Click the "Merge" button.
 
-![Errbit merge exceptions screenshot](https://s3.amazonaws.com/s3.alfajango.com/errbit-merge-exceptions-screenshot.png)
+![Errbit merge exceptions screenshot](/assets/images/errbit-merge-exceptions-screenshot.png)
 
 ### Creating a Redmine ticket
 
@@ -34,7 +34,7 @@ From the app page in Errbit, click the exception from the "Errors" list. If the 
 
 If the exception already has an associated ticket in Redmine, then type the issue ticket number in the text field next to the "link issue" button, and then click the "link issue" button.
 
-![Errbit add ticket to Redmine](https://s3.amazonaws.com/s3.alfajango.com/errbit-add-ticket-to-redmine.png)
+![Errbit add ticket to Redmine](/assets/images/errbit-add-ticket-to-redmine.png)
 
 ### Notifying the client
 
