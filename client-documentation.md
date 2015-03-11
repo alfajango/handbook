@@ -56,6 +56,13 @@ It also updates the URL in the browser with a direct link to that document, so t
 
 ![Client Dashboard Document URL](/assets/images/documents-client-dashboard-url.png)
 
+To make it easier to share the link with clients, since you can't
+directly copy and paste this URL when logged in as an admin, you can
+easily share a link to the document by opening the document in the
+Client Dashboard and clicking the "Share Link" link in the top right:
+
+![Client Dashboard Share Document](/assets/images/documents-client-dashboard-share.png)
+
 In the future, we may build a back-end that allows us to just CC e.g. “documentation@alfajango.com” on an email that contains documentation or a tutorial, and our back-end app would recognize which client it’s for based on who the recipient is, and would automatically add the documentation to Redmine, and thus the Client Dashboard. Same with meetings@alfjango.com for Meeting Minutes. So, that may be a next step.
 
 For now, we’ll just create the documentation directly in Redmine and then email the client a link to the new document in the Client Dashboard.
