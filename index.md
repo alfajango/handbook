@@ -40,6 +40,7 @@ Github](https://github.com/alfajango/handbook).
 ## For Employees
 
 * [Redmine Guide](/redmine-guide.html) {% include labels/workflow %}
+* [Sprints](/sprints.html) {% include labels/workflow %}
 * [Time Tracking](/time-tracking.html) {% include labels/workflow %}
 * [Security](/security.html) {% include labels/policy %}
 * Data Backup {% include labels/coming_soon %}
