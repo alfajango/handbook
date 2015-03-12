@@ -35,7 +35,7 @@ These are open tasks from our issue tracker.
 If it's not in this list, then it's probably not on our radar (unless we just discussed it, in which case, we probably just haven't added it yet).
 If you see something missing that should be there, let us know!
 
-![Client Dashboard](/assets/images/client-dashboard-open-tasks.png)
+![Client Dashboard Open Tasks](/assets/images/client-dashboard-open-tasks.png)
 
 ### Unresolved Errors
 
@@ -48,20 +48,20 @@ Ideally, errors don't happen in production. But when building new MVPs, it's som
 The important thing is to proactively monitor for any errors so that we can easily fix those errors, often before
 users have even had a chance to let you know.
 
-![Client Dashboard](/assets/images/client-dashboard-unresolved-errors.png)
+![Client Dashboard Unresolved Errors](/assets/images/client-dashboard-unresolved-errors.png)
 
 ### Invoice Amount
 
 This is the running total for the upcoming invoice, pulled directly from our time-tracking and invoicing app, so you'll never be surprised by an invoice.
 
-![Client Dashboard](/assets/images/client-dashboard-invoice-amount.png)
+![Client Dashboard Invoice Amount](/assets/images/client-dashboard-invoice-amount.png)
 
 ### Site Status
 
 Our uptime-monitoring application monitors your site to alert us if and
 when it goes down for any reason, so we can spring into action.
 
-![Client Dashboard](/assets/images/client-dashboard-site-status.png)
+![Client Dashboard Site Status](/assets/images/client-dashboard-site-status.png)
 
 ### Test Suite
 
@@ -69,7 +69,7 @@ This tells you the current build status (passing or failing) for your
 automated test suite, which programmatically tests the critical
 functionality of your application.
 
-![Client Dashboard](/assets/images/client-dashboard-test-suite.png)
+![Client Dashboard Test Suite](/assets/images/client-dashboard-test-suite.png)
 
 ### Documents
 
@@ -78,4 +78,4 @@ application, along with meeting notes. Having it all in one place makes
 it easy for you to always refer back to tutorials and how-tos, even from
 years ago, and to share documentation with others on your team.
 
-![Client Dashboard](/assets/images/client-dashboard-documents.png)
+![Client Dashboard Documents](/assets/images/client-dashboard-documents.png)
