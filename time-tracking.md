@@ -2,6 +2,7 @@
 layout: page
 title: "Time Tracking"
 description: ""
+category: workflow
 ---
 {% include JB/setup %}
 

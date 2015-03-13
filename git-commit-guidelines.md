@@ -2,6 +2,7 @@
 layout: page
 title: "Git Commit Guidelines"
 description: ""
+category: workflow
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: page
 title: "Sprints"
 description: ""
+category: workflow
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: page
 title: "Invoice and Payment Numbering System"
 description: ""
+category: workflow
 ---
 {% include JB/setup %}
 <table>

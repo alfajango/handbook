@@ -2,6 +2,7 @@
 layout: page
 title: "Redmine Guide"
 description: ""
+category: workflow
 ---
 {% include JB/setup %}
 

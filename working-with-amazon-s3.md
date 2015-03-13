@@ -2,6 +2,7 @@
 layout: page
 title: "Working with Amazon S3"
 description: ""
+category: policy
 ---
 {% include JB/setup %}
 

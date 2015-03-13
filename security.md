@@ -2,6 +2,7 @@
 layout: page
 title: "Security"
 description: ""
+category: policy
 ---
 {% include JB/setup %}
 

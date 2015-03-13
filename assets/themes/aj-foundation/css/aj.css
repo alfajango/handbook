@@ -9,6 +9,9 @@ a:hover, a:focus {
 label {
   font-size: initial;
 }
+h1 span.label {
+  vertical-align: middle;
+}
 
 .contain-to-grid {
   background: #000;

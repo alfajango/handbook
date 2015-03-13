@@ -2,6 +2,7 @@
 layout: page
 title: "New Hire Onboarding"
 description: ""
+category: workflow
 ---
 {% include JB/setup %}
 

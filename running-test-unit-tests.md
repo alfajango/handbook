@@ -2,6 +2,7 @@
 layout: page
 title: "Running Test Unit Tests"
 description: ""
+category: tip
 ---
 {% include JB/setup %}
 

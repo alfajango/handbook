@@ -2,6 +2,7 @@
 layout: page
 title: "Cms Tips"
 description: ""
+category: tip
 ---
 {% include JB/setup %}
 

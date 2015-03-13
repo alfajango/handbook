@@ -2,6 +2,7 @@
 layout: page
 title: "The Tech Status Dashboard"
 description: ""
+category: workflow
 ---
 {% include JB/setup %}
 
