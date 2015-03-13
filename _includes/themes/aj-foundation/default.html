@@ -3,32 +3,31 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Simple admin template | Foundation • Boilerplate</title>
-    <meta content="A simple layout for backoffice with sidebar and topbar. The fixed position allow you to scroll throw the content and quickly change page." name="description" />
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
     <meta content="index,follow" name="robots" />
     <link href="{{ ASSET_PATH }}/css/application-30707341.css" rel="stylesheet" type="text/css" />
+    <link href="{{ ASSET_PATH }}/css/aj.css" rel="stylesheet" type="text/css" />
     <script src="{{ ASSET_PATH }}/js/modernizr-6e6719c6.js" type="text/javascript"></script>
   </head>
   <body class="templates templates_admin">
     <div class="row row-full-page collapse">
-      <div class="medium-2 columns">
+      <div class="hide-for-small-only medium-4 large-3 columns">
         <ul class="m-admin--sidebar">
           <li>
-            <a href="/">Alfa Jango Handbook</a>
+          <a href="/"><img src="{{ ASSET_PATH }}/img/alfa-jango-handbook-logo.png" alt="Alfa Jango Handbook" /></a>
           </li>
-          <li class="divider"></li>
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include JB/pages_list %}
+          {% include articles.html %}
         </ul>
       </div>
-      <div class="medium-10 columns">
+      <div class="small-12 medium-8 large-9 columns">
         <div class="contain-to-grid sticky">
-          <nav class="top-bar" data-options="sticky_on: large; is_hover: false" data-topbar="" role="navigation">
+          <nav class="top-bar" data-options="sticky_on: [medium, large]; is_hover: false" data-topbar="" role="navigation">
             <ul class="title-area">
               <li class="name">
-                <h1><a href="/">
-                                <i class="fi-home"></i></a>
+                <h1><a href="/" class="show-for-small-only">
+                                <i class="fi-home"></i> Alfa Jango Handbook</a>
                 </h1>
               </li>
               <li class="toggle-topbar menu-icon"><a href="#">
@@ -36,7 +35,8 @@
               </li>
             </ul>
             <section class="top-bar-section">
-              <ul class="left">
+              <ul class="left show-for-small-only">
+                {% include articles.html %}
                 <!--
                 <li class="has-form">
                   <div class="row collapse">
@@ -51,6 +51,9 @@
                 //-->
               </ul>
               <ul class="right">
+                {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
+                {% include JB/pages_list %}
                 <!--
                 <li class="divider hide-for-small"></li>
                 <li><a href="https://github.com/flexbox">

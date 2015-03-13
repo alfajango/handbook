@@ -25,37 +25,3 @@ This is a living document which will be continuously refined with our
 ongoing development and experience. Keep referring back for the most
 up-to-date information, and view the public history of [this handbook on
 Github](https://github.com/alfajango/handbook).
-
-## [Introduction &rarr;](/introduction.html)
-
-## For Clients
-
-* [Content Management for Non-Developers](/cms-tips.html) {% include labels/tip %}
-* Installing development version of iOS app {% include labels/coming_soon %}
-* Getting Started with Alfa Jango {% include labels/coming_soon %}
-* [The Tech Status Dashboard](/tech-status-dashboard.html) {% include labels/workflow %}
-* Software Pricing {% include labels/coming_soon %}
-* The Employee/Contractor Dashboard {% include labels/coming_soon %}
-
-## For Employees
-
-* [Redmine Guide](/redmine-guide.html) {% include labels/workflow %}
-* [Sprints](/sprints.html) {% include labels/workflow %}
-* [Time Tracking](/time-tracking.html) {% include labels/workflow %}
-* [Security](/security.html) {% include labels/policy %}
-* Data Backup {% include labels/coming_soon %}
-* File Sharing {% include labels/coming_soon %}
-* [Invoice and Payment Numbering System](/invoice-and-payment-numbering-system.html)
-* [New Client Onboarding](/new-client-onboarding.html)
-* [New Hire Onboarding](/new-hire-onboarding.html)
-
-## For Developers
-
-* [Git Commit Guidelines](/git-commit-guidelines.html) {% include labels/workflow %}
-* [Client Documentation](/client-documentation.html) {% include labels/workflow %}
-* [Exception Management](/exception-management.html) {% include labels/workflow %}
-* [Running Test::Unit Tests](/running-test-unit-tests.html) (todo: move
-  this to a blog post?)
-* Project READMEs {% include labels/coming_soon %}
-* [Working with Amazon S3](/working-with-amazon-s3.html) {% include labels/policy %}
-* [Setting up Google Apps Email](/setting-up-google-apps.html) {% include labels/policy %}
