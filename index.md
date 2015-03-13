@@ -25,3 +25,5 @@ This is a living document which will be continuously refined with our
 ongoing development and experience. Keep referring back for the most
 up-to-date information, and view the public history of [this handbook on
 Github](https://github.com/alfajango/handbook).
+
+<a href="/introduction.html" class="button">Check out the Introduction to get started &rarr;</a>
