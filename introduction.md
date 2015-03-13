@@ -7,8 +7,8 @@ description: ""
 
 This handbook is comprised of content in two main categories:
 
-* <span class="label label-success">Company Policies and Workflows</span>
-* <span class="label label-info">Tips and Advise for Startups</span>
+* <span class="label success">Company Policies and Workflows</span>
+* <span class="label info">Tips and Advise for Startups</span>
 
 There could also be a third category, *Research and Development*, but
 these posts always end up in [The Alfa Jango Blog](https://www.alfajango.com/blog).
