@@ -84,6 +84,15 @@ pre code {
   color: #fff;
 }
 
+.m-admin--content img {
+  line-height: 0;
+  display: inline-block;
+  border: solid 4px #FFFFFF;
+  max-width: 100%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-out;
+}
+
 @media only screen and (min-width: 40.063em) {
   .m-admin--sidebar {
     /*width: 25%;*/
