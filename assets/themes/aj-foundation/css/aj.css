@@ -6,6 +6,10 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
+label {
+  font-size: initial;
+}
+
 .contain-to-grid {
   background: #000;
 }
