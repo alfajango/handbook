@@ -1,0 +1,6 @@
+@media print {
+  .m-admin--sidebar,
+  .menu-icon {
+    display: none;
+  }
+}
