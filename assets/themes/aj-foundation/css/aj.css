@@ -89,7 +89,7 @@ pre code {
 
 .m-admin--content img {
   line-height: 0;
-  display: inline-block;
+  display: block;
   border: solid 4px #FFFFFF;
   max-width: 100%;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
