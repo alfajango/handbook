@@ -45,12 +45,27 @@ h1 span.label {
   font-size: 20px;
   margin-bottom: 0;
 }
-li span.list-section {
+li.list-section span {
   display: block;
   background: #65b561;
   color: #000;
   padding: 0.4375rem 0.875rem;
   margin: 0.4375rem 0;
+  cursor: pointer;
+}
+li.list-section span::after {
+  content: "\25b6";
+  float: right;
+}
+li.list-section.on span::after {
+  content: "\25bc";
+  float: right;
+}
+html.js li.list-section ul {
+  display: none;
+}
+html.js li.list-section.on ul {
+  display: block;
 }
 .m-admin--sidebar li a {
   font-size: 20px;
@@ -69,18 +84,24 @@ li span.list-section {
   font-size: 14px;
   line-height: 16px;
 }
-.m-admin--sidebar li a.no-click {
+ul.pages-list li a.no-click {
   cursor: not-allowed;
   color: #999;
 }
-.m-admin--sidebar li a:not(.button):hover, .m-admin--sidebar li a:not(.button):focus {
-  background: rgba(255,255,255,0.1);
+.pages-list li a:not(.button):not(.no-click):hover,
+.pages-list li a:not(.button):not(.no-click):active,
+.pages-list li a:not(.button):not(.no-click).active,
+.pages-list li a:not(.button):not(.no-click):focus {
+  background: rgba(255,255,255,0.15);
   color: #fff;
   text-decoration: none;
 }
-.m-admin--sidebar li a.no-click:not(.button):hover, .m-admin--sidebar li a.no-click:not(.button):focus {
+.pages-list li a.no-click:not(.button):hover,
+.pages-list li a.no-click:not(.button):active,
+.pages-list li a.no-click:not(.button):focus {
   background: transparent;
   color: #999;
+  text-decoration: none;
 }
 
 pre code {

@@ -2,7 +2,9 @@
 layout: page
 title: "Setting Up Google Apps Email"
 description: ""
-category: policy
+category: For Developers
+tags:
+  - policy
 ---
 {% include JB/setup %}
 1. Verify domain ownership in Google Apps settings.

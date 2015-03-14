@@ -1,6 +1,6 @@
 <div class="row">
   <div class="small-12 large-12 columns page-header">
-    <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}{% if page.category %}<span class="label info">{{ page.category }}</span>{% endif %}</h1>
+    <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}{% for tag in page.tags %}<span class="label info">{{ tag }}</span>{% endfor %}</h1>
   </div>
 </div>
 

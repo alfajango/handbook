@@ -2,7 +2,9 @@
 layout: page
 title: "Cms Tips"
 description: ""
-category: tip
+category: For Clients
+tags:
+  - tip
 ---
 {% include JB/setup %}
 

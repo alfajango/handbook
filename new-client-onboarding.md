@@ -2,7 +2,9 @@
 layout: page
 title: "New Client Onboarding"
 description: ""
-category: workflow
+category: For Employees
+tags:
+  - workflow
 ---
 {% include JB/setup %}
 
