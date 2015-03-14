@@ -40,6 +40,10 @@ h1 span.label {
   overflow: auto;
 }
 
+.logo img {
+  margin-bottom: 60px;
+}
+
 .m-admin--sidebar li {
   color: #eee;
   font-size: 20px;
