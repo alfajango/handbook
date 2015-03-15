@@ -39,6 +39,11 @@ h1 span.label {
   width: 33.33333%;
   overflow: auto;
 }
+.m-admin--sidebar ul {
+  list-style-type: none;
+  list-style-position: outside;
+  margin-left: 0;
+}
 
 .logo img {
   margin-bottom: 60px;
@@ -88,7 +93,7 @@ html.js li.list-section.on ul {
   font-size: 14px;
   line-height: 16px;
 }
-ul.pages-list li a.no-click {
+.pages-list li a.no-click {
   cursor: not-allowed;
   color: #999;
 }
@@ -106,6 +111,24 @@ ul.pages-list li a.no-click {
   background: transparent;
   color: #999;
   text-decoration: none;
+}
+
+.footer {
+  display: table;
+  width: 100%;
+}
+.footer ul {
+  display: table-row;
+}
+.pages-list li.footer-links {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.pages-list li.footer-links a {
+  display: block;
+  font-size: 12px;
+  padding: 0.4375rem 0;
+  text-align: center;
 }
 
 pre code {
@@ -146,4 +169,20 @@ pre code {
   .m-admin--sidebar {
     /*width: 25%;*/
   }
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.pages-list-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+.footer, .push {
+  height: 4em;
 }

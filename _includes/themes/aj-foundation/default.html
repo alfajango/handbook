@@ -15,19 +15,25 @@
   <body class="templates templates_admin">
     <div class="row row-full-page collapse">
       <div class="hide-for-small-only medium-4 large-3 columns">
-        <ul class="pages-list m-admin--sidebar">
-          <li>
-          <a class="logo" href="/"><img src="{{ ASSET_PATH }}/img/alfa-jango-handbook-logo.png" alt="Alfa Jango Handbook" /></a>
-          </li>
-          {% include articles.html %}
-        </ul>
+        <div class="pages-list m-admin--sidebar">
+          <div class="pages-list-wrapper">
+            <ul>
+              <li>
+              <a class="logo" href="/"><img src="{{ ASSET_PATH }}/img/alfa-jango-handbook-logo.png" alt="Alfa Jango Handbook" /></a>
+              </li>
+              {% include articles.html %}
+            </ul>
+            <div class="push"></div>
+          </div>
+          {% include footer_links.html %}
+        </div>
       </div>
       <div class="small-12 medium-8 large-9 columns">
-        <div class="contain-to-grid sticky">
-          <nav class="top-bar" data-options="sticky_on: [medium, large]; is_hover: false" data-topbar="" role="navigation">
+        <div class="contain-to-grid show-for-small-only">
+          <nav class="top-bar" data-options="is_hover: false" data-topbar="" role="navigation">
             <ul class="title-area">
               <li class="name">
-                <h1><a href="/" class="show-for-small-only">
+                <h1><a href="/">
                                 <i class="fi-home"></i> Alfa Jango Handbook</a>
                 </h1>
               </li>
@@ -36,7 +42,7 @@
               </li>
             </ul>
             <section class="top-bar-section">
-              <ul class="pages-list left show-for-small-only">
+              <ul class="pages-list">
                 {% include articles.html %}
                 <!--
                 <li class="has-form">
@@ -51,11 +57,8 @@
                 </li>
                 //-->
               </ul>
+              {% include footer_links.html %}
               <ul class="right">
-                <li><a href="http://www.alfajango.com">Company</a></li>
-                <li><a href="http://www.alfajango.com/blog">Blog</a></li>
-                <li><a href="http://os.alfajango.com">Open Source</a></li>
-                <li><a href="http://www.alfajango.com/design">Design</a></li>
                 <!--
                 <li class="divider hide-for-small"></li>
                 <li><a href="https://github.com/flexbox">
