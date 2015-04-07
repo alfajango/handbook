@@ -24,7 +24,10 @@ Under "Category", you can select between "User Documentation" for user and inter
 
 ![Redmine Create Document](/assets/images/documents-redmine-create.png)
 
-If you want to add screenshots, you can browse to them in the file selector at the bottom. To add the screenshots inline in the documentation, you can use this textile markup after you upload the file (make sure to use the relative path to the file, so that it doesn't break if we change the URL of our Redmine instance):
+If you want to add screenshots, you can browse to them in the file selector at the bottom.
+To add the screenshots inline in the documentation, drag and drop the image file onto the Description text area where you'd like to insert the image into the text.
+You can also paste an image directly into the text body as well, using cmd+v (or ctrl+v).
+The file will be uploaded automatically and the corresponding image embed code will be inserted into the description:
 
 ```
 {% raw %}
