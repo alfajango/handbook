@@ -8,6 +8,9 @@ tags:
 ---
 {% include JB/setup %}
 
+<label for="member-name">Team Member Name
+<input id="member-name" type="text" name="name"></label>
+
 ### Employment Tasks:
 
 1. <label class="checkbox"><input type="checkbox"> Fill out and sign employment paperwork:</label>
@@ -19,16 +22,20 @@ tags:
    * <label class="checkbox"><input type="checkbox">  Payroll Direct Deposit (optional)</label>
 2. <label class="checkbox"><input type="checkbox"> Add to payroll.</label>
 3. <label class="checkbox"><input type="checkbox"> Set up health insurance.</label>
-4. <label class="checkbox"><input type="checkbox"> Get computer.</label>
+4. <label class="checkbox"><input type="checkbox"> Get computer <u>or</u> upgrade existing computer RAM and SSD.</label>
+5. <label class="checkbox"><input type="checkbox"> Get external harddrive for backups.</label>
+6. <label class="checkbox"><input type="checkbox"> Set up with cloud backup account.</label>
 
 ### Workflow Tasks:
 
 * <label class="checkbox"><input type="checkbox"> Show Launchpad.</label>
 * <label class="checkbox"><input type="checkbox"> Read Handbook.</label>
 * <label class="checkbox"><input type="checkbox"> Add to Kandan group chat.</label>
+* <label class="checkbox"><input type="checkbox"> Add to IRC.</label>
 * <label class="checkbox"><input type="checkbox"> Create name@alfajango.com email account.</label>
 * <label class="checkbox"><input type="checkbox"> Add to team mailing list.</label>
 * <label class="checkbox"><input type="checkbox"> Add to group text app.</label>
+* <label class="checkbox"><input type="checkbox"> Add to Company Status Dashboard.</label>
 * <label class="checkbox"><input type="checkbox"> Create Redmine account.</label>
 * <label class="checkbox"><input type="checkbox"> Add to Cashboard as employee.</label>
 * <label class="checkbox"><input type="checkbox"> Add to BitBucket developer team.</label>
