@@ -17,7 +17,7 @@ Welcome to the amazing Alfa Jango project management tool. You must have top-sec
 
 h1. Guidelines
 
-Welcome to the Alfa Jango Redmine guidelines. Follow these, and you won't be shunned, ostracized, exiled, lynched, beaten, banned, repudiated, expelled, rebuked, admonished, berated, or otherwise made to look like this:
+Welcome to the Alfa Jango Redmine guidelines. Follow these, and you won't be shunned, ostracized, exiled, banned, repudiated, expelled, rebuked, admonished, berated, or otherwise made to look like this:
 
 :-(
 
