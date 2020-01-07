@@ -3,6 +3,24 @@
 This is The Alfa Jango Handbook to Awesomeness. It's built from a
 modified version of jekyll-bootstrap and deployed to Heroku.
 
+# Making Updates
+
+Update the source md and textile files as needed, then regenerate the
+compiled HTML using this command:
+
+```
+jekyll
+```
+
+Once the files have been compiled to the `_site` directory (locally from
+where you'll do the deployment, since this directory is not version
+controlled), you can then deploy the contents of `_site` with this
+command:
+
+```
+./deploy.sh
+```
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
