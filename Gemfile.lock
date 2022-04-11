@@ -38,8 +38,12 @@ GEM
     maruku (0.6.1)
       syntax (>= 1.0.0)
     mime-types (1.19)
-    nokogiri (1.5.9)
+    mini_portile2 (2.8.0)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     posix-spawn (0.3.6)
+    racc (1.6.0)
     rack (1.4.1)
     rack-jekyll (0.3.5)
       jekyll
